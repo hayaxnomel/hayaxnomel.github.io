@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+}
+
+.left-sub {
+    background-color: grey;
+    width: 100%;
+}
+
+.section {
+    margin: auto;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pcontainer {
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.part {
+    border: 1px solid orange;
+    position: absolute;
+    width: 350px;
+    aspect-ratio: 1/1.4;
+    left: 5%;
+
+    background-size: contain;
+}
+
+.pcard {
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+}
+
+
+/* text */
+
+.ctitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i {
+    font-style: italic;
+}
+
+/* images */
+
+#hb {
+    background-image: url("images/disco/harry.jpg")
+}
+
+#kk {
+    background-image: url("images/disco/Kim.jpg")
+}

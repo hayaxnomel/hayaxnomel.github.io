@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>This is Homw !!</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <link href="home.css" rel="stylesheet" />
+        <link href="_common.css" rel="stylesheet" />
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="home.js"></script>
+        <script src="common.js"></script>
+        <script>
+            $(document).ready(function() {
+
+                $("#li1").on('click', function(){
+                    setTimeout(() => {
+                        window.location.href = "art.html";
+                    }, 600);
+                });
+
+                $("#li2").on('click', function(){
+                    setTimeout(() => {
+                        window.location.href = "comms.html";
+                    }, 600);                    
+                });
+
+                $("#li3").on('click', function(){
+                    setTimeout(() => {
+                        window.location.href = "exp.html";
+                    }, 600);
+                    
+                });
+                $("#li4").on('click', function(){
+                    setTimeout(() => {
+                        window.location.href = "merch.html";
+                    }, 600);                   
+                });
+
+                $("#li5").on('click', function(){
+                    setTimeout(() => {
+                        window.location.href = "projects.html";
+                    }, 600);
+
+                });
+
+                $('.in-button').on('click', function (){
+                    $('#filter').removeClass('hidden');
+                    setTimeout(() => {
+                        $('#filter').removeClass('focus').addClass('blur-filter');
+                    }, 50);
+                });
+            });
+        </script>
+    </head>
+        <body>
+
+            <div id="filter" class="blur-filter"></div>
+
+        <div class="top-nav hide">
+            <div class="nav-button" id="pHome">HOME</div>
+            <div class="nav-button" id="pWork">WORKS</div>
+            <div class="nav-button" id="pComms">COMMISSIONS</div>
+            <div class="nav-button" id="pExp">EXPERIENCE</div>
+            <div class="nav-button" id="pMerch">MERCHANDISE</div>
+            <div class="nav-button" id="pProj">PROJECTS</div>
+        </div>
+
+        <div id="block-main">
+            <div id="comment">
+                <br><br>
+                <div class="commenttitle">Hey!</div>
+                <div class="commenttitle">I'm Hyx.</div>
+                <div class="body">Self-taught artist, definetly not a professional</div>
+                <div class="body">the code used for this website is of concern, but not any of yours yay!</div>
+                <div class="body">currently only the WORKS page is populated, please only look there !</div>
+            </div>
+
+            <div id="main-deco">
+                <div id="i1" class="image"></div>
+                <div id="i2" class="image hide"></div>
+                <div id="i3" class="image hide"></div>
+                <div id="i4" class="image hide"></div>
+                <div id="i5" class="image hide"></div>
+                <div id="i6" class="image hide"></div>
+                <div id="i7" class="image hide"></div>
+            </div>
+
+            <div id="title">
+                <p>TIN CAN</p>
+            </div>
+
+            <div id="home-nav">
+                <div id="li1" class="in-button">Works</div>
+                <div id="li2" class="in-button">Commissions</div>
+                <div id="li3" class="in-button">Experience</div>
+                <div id="li4" class="in-button">Merchandise</div>
+                <div id="li5" class="in-button">Projects</div>
+            </div>
+        </div>
+
+        <div id="ad-banner">
+            <marquee scrollamount="30">I've come to make an announcement; Shadow The Hedgehog's a bitch ass motherfucker, he pissed on my fucking wife. Thats right, he took his hedgehog quilly dick out and he pissed on my fucking wife, and he said his dick was "This big" and I said that's disgusting, so I'm making a callout post on my twitter dot com, Shadow the Hedgehog, you've got a small dick, it's the size of this walnut except WAY smaller, and guess what? Here's what my dong looks like: PFFFT, THAT'S RIGHT, BABY. ALL POINTS, NO QUILLS, NO PILLOWS. Look at that, it looks like two balls and a bong. He fucked my wife so guess what? I'm gonna fuck the Earth. THAT'S RIGHT THIS IS WHAT YOU GET, MY SUPER LASER PISS! Except I'm not gonna piss on the earth. I'm gonna go higher. I'M PISSING ON THE MOON! HOW DO YOU LIKE THAT, OBAMA? I PISSED ON THE MOON YOU IDIOT! YOU HAVE 23 HOURS BEFORE THE PISS DROPLETS HIT THE FUCKING EARTH NOW GET OUT OF MY SIGHT BEFORE I PISS ON YOU TOO. ...ohmygod my sona looks just sonic the hedgehog...</marquee>
+        </div>
+
+        <div id="block-ad">
+            <p>so this is the part where i say there are slots open for commissions and link to a new page that has commission types</p>
+            <p>i keep working for free because it'lls be worth nothing!</p>
+        </div>
+
+        <div id="block-inf">
+            <p>words where i pretend to actually have professional experience and pretend i've actually acomplished something!</p>
+        </div>
+
+    </body>
+</html>

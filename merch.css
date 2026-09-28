@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.ismioatbhtbbg {
+    background-image: url('images/fill/ocamv.jpg');
+    background-size: contain;
+    height: 500px;
+    width: 400px;
+}
+
+.thinking {
+    background-image: url('images/fill/thinking.jpg');
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+}

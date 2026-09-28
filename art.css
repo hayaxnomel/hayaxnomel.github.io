@@ -1,0 +1,311 @@
+body {
+    margin: 0px;
+    background-color: bisque;
+    overflow-x: hidden;
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+}
+
+.section {
+    text-align: center;
+}
+
+.left-sub {
+    background-color: grey;
+    width: 100%;
+
+    text-align: left;
+    font-size: 50px;
+}
+
+#effects {
+    position: absolute;
+    left: 10%;
+    
+    width: 40px;
+    height: 40px;
+}
+
+#effects-text {
+    position: absolute;
+    left: 13%;
+
+
+    font-size: 30px;
+}
+
+#tip {
+    z-index: 9999;
+    position: absolute;
+
+    width: 200px;
+    height: 100px;
+
+    background-color: white;
+
+}
+
+.grid {
+    max-width: 95%;
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
+#p1 > .grid{
+    height: 200%;
+}
+
+#p2 > .grid{
+    height: 200%;
+}
+
+#p3 > .grid{
+    height: 200%;
+}
+
+#p4 > .grid{
+    height: 200%;
+}
+
+#p5 {
+    cursor: pointer;
+}
+
+
+/* images */
+
+.art {
+    padding: 0px;
+
+    width: 100%;
+    height: 100%;
+    
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: inset 0 0 4px 4px bisque; 
+
+    transition: box-shadow 0.5s ease-in-out,
+    background-size 1s ease-in-out;
+}
+
+/* .art:hover {
+    box-shadow: none;
+    background-size: 92%;
+} */
+
+.mini {
+    margin-bottom: 10px;
+    min-width: 20vw;
+
+    height: 58vh;
+}
+
+.small {
+    margin-bottom: 10px;
+    min-width: 36vw;
+
+    height: 58vh;
+
+}
+
+.med {
+    margin-bottom: 10px;
+    min-width: 31.3vw;
+    min-height: 89vh;
+}
+
+.med2 {
+    position: relative;
+    margin-bottom: 10px;
+    min-width: 23vw;
+    min-height: 60vh;
+}
+
+.large {
+    margin-bottom: 10px;
+    min-width: 94vw;
+    min-height: 80vh;
+
+    
+}
+
+.pcard {
+    z-index: 999;
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 5px;
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    bottom: 10%;
+    right: 5%;
+}
+
+.ctitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i {
+    font-style: italic;
+}
+
+#whatIf {
+    background-image: url('images/art/whatIf.png');
+    
+}
+
+#whatTime {
+    background-image: url('images/art/whatTime.png');
+    background-size: contain !important;
+}
+
+#noHome {
+    background-image: url('images/art/noHome.png');
+}
+
+#makotoKonno {
+    background-image: url('images/art/maKO1.png');
+}
+
+#chiakiMamiya {
+    background-image: url('images/art/chiMA1.png');
+}
+
+#kousukeTsuda {
+    background-image: url('images/art/koTSU1.png');
+}
+
+#arvio {
+    background-image: url('images/art/arvio.jpg');
+}
+
+#ladder {
+    background-image: url('images/art/ladder.jpg');
+}
+
+#showdown {
+    background-image: url('images/art/showdown.jpg');
+}
+
+#yakmel {
+    background-image: url('images/art/yakmel.jpg');
+}
+
+#riren {
+    background-image: url('images/art/riren.jpg');
+}
+
+#ville {
+    background-image: url('images/art/ville.jpg');
+}
+
+#echo {
+    background-image: url('images/art/echo.jpg');
+}
+
+#knights {
+    background-image: url('images/art/knights.jpg');
+}
+
+#fairy {
+    background-image: url('images/art/fairy.jpg');
+}
+
+#childe {
+    background-image: url('images/art/childe.jpg');
+}
+
+#neko {
+    background-image: url('images/art/neko.jpg');
+}
+
+#whwb {
+    background-image: url('images/art/whwb.jpg');
+}
+
+
+
+#ph {
+    background-image: url('images/art/ph.jpg');
+}
+
+#tri {
+    background-image: url('images/art/tri.jpg');
+}
+
+#mj {
+    background-image: url('images/art/mj.jpg');
+}
+
+#bonfire {
+    background-image: url('images/art/bonfire.jpg');
+}
+
+#leja {
+    background-image: url('images/art/leja.jpg');
+}
+
+#exp {
+    background-image: url('images/art/exp.jpg');
+}
+
+
+/* disco disco */
+
+#hdb {
+    background-image: url('images/disco/harry.jpg')
+}
+
+#kk {
+    background-image: url('images/disco/Kim.jpg')
+}
+
+#kl {
+    background-image: url('images/disco/klaasje.jpg')
+}
+
+#ftw {
+    background-image: url('images/disco/ftw.jpg')
+}
+
+#piss {
+    background-image: url('images/disco/piss.jpg')
+}
+
+#ckl {
+    background-image: url('images/disco/ckl.jpg')
+}
+
+#lena {
+    background-image: url('images/disco/lena.jpg')
+}
+
+#more {
+    background-image: url('images/disco/morell.jpg')
+}
+
+#jean {
+    background-image: url('images/disco/jean.jpg')
+}
+
+#chester {
+    background-image: url('images/disco/chester.jpg')
+}
+
+#dice {
+    background-image: url('images/disco/dice.jpg')
+}
+
+#judit {
+    background-image: url('images/disco/judit.jpg')
+}

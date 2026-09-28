@@ -1,0 +1,75 @@
+body {
+    background-color: orange;
+    text-align: center;
+}
+
+.section-1 {
+    width: 90%;
+    height: 100vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;;
+    background-color: grey;
+    
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+}
+
+.closed {
+    overflow: hidden;
+}
+
+.main-image,
+.sub-image,
+.fore-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+}
+
+.main-image {
+    z-index: 2;
+}
+
+.sub-image {
+    z-index: 1;
+}
+
+.fore-image {
+    z-index: 3;
+}
+
+/* images */
+
+#NIKOL {
+    background-image: url('images/projects/nikol.png');
+    transition: transform 0.1s linear;
+}
+
+
+#KALEB {
+    background-image: url('images/projects/kaleb.png');
+    transition: transform 0.1s linear;
+}
+
+#whwb {
+    background-image: url('images/projects/whwb.png');
+    background-position: center;
+}
+
+#ITO {
+    background-image: url('images/projects/ito.png');
+    /* background-color:#0000ff50 */
+}
+
+#KAMI {
+    background-image: url('images/projects/kami.png');
+    transition: transform 0.1s linear;
+}

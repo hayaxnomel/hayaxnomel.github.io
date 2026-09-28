@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>Fuck My Chud Life</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <link href="art.css" rel="stylesheet" />
+        <link href="_common.css" rel="stylesheet"/>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="common.js"></script>
+        <script>
+        $(document).mousemove(function(e) {
+            $('#tip').css({
+                left: e.pageX + 20 + 'px',
+                top: e.pageY + 20 + 'px'
+            });
+        });
+
+        var tgwltt = 0;
+
+        $(document).ready(function() {
+
+            var isChecked = false;
+
+            $('#effects').prop('checked', false);
+
+            $('#effects').change(function() {
+                isChecked = $(this).is(':checked');
+            });
+
+            $('.art').hover( 
+                function() {
+                    if (isChecked) {
+                        $(this).css({
+                            'background-size': '92%',
+                            'box-shadow': 'none'
+                        });
+                    } 
+                },
+
+            function() {
+                if (isChecked) {
+                    $(this).css({
+                        'background-size': '101%',
+                        'box-shadow': 'inset 0 0 4px 4px bisque'
+                    })
+                }
+            });
+
+            $('#p5').hover(
+                function() {
+                    $('#tip').removeClass('hidden');
+                },
+                function(){
+                    $('#tip').addClass('hidden');
+                }
+            )
+
+            
+
+            $('#p5').on('click', function() {
+                if (tgwltt === 0) {
+                    $('#makotoKonno').css('background-image', 'url(images/art/maKO2.png)');
+                    $('#chiakiMamiya').css('background-image', 'url(images/art/chiMA2.png)');
+                    $('#kousukeTsuda').css('background-image', 'url(images/art/koTSU2.png)');
+                    tgwltt = 1;
+                } else {
+                    $('#makotoKonno').css('background-image', 'url(images/art/maKO1.png)');
+                    $('#chiakiMamiya').css('background-image', 'url(images/art/chiMA1.png)');
+                    $('#kousukeTsuda').css('background-image', 'url(images/art/koTSU1.png)');
+                    tgwltt = 0;
+                }
+            });
+        })
+        </script>
+    </head>
+    <body>
+
+    <div class="top-nav">
+        <div class=nav-button id="pHome">HOME</div>
+        <div class=nav-button id="pWork">WORKS</div>
+        <div class=nav-button id="pComms">COMMISSIONS</div>
+        <div class=nav-button id="pExp">EXPERIENCE</div>
+        <div class=nav-button id="pMerch">MERCHANDISE</div>
+        <div class=nav-button id="pProj">PROJECTS</div>
+    </div>
+
+    <div id="filter" class="blur-filter"></div>
+
+    <div class="spacer"></div>
+
+    <div id="tip" class="hidden">Click to flip these pocas !!! (i love my girls who leapt through time!)</div>
+    
+    <input type="checkbox" id="effects">
+    <label for="effects" id="effects-text">Turn On Hover Effects</label>
+
+    <div id="title">Digital Works!</div>
+
+    <div id="p1" class="section">
+        <!-- <div class="left-sub">2025</div> -->
+        <div class="grid">
+            <div class="med">
+                <div id="arvio" class="art"></div>
+            </div>
+            <div class="med">
+                <div id="yakmel" class="art"></div>
+            </div>
+            <div class="med">
+                <div id="showdown" class="art"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p5" class="section">
+        <!-- <div class="left-sub">2025</div> -->
+        <div class="grid">
+            <div class="image med">
+                <div id="makotoKonno" class="art"></div>
+            </div>
+
+            <div class="image med">
+                <div id="chiakiMamiya" class="art"></div>
+            </div>
+
+            <div class="image med">
+                <div id="kousukeTsuda" class="art"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p6" class="section">
+        <div class="grid">
+            <div class="image large">
+                <div id="whatIf" class="art"></div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="image med">
+                <div id="noHome" class="art"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="p4" class="section">
+        <!-- <div class="left-sub">2023-22</div> -->
+        <div class="grid">
+
+            <div class="med2">
+                <div id="hdb" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Harrier Du Bois</div>
+                    <div class="ctitle i">Tequila Sunset</div>
+                </div>
+            </div>
+
+            <div class="med2">
+                <div id="kk" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Kim Kitsuragi</div>
+                    <div class="ctitle i">Sunrise Parabellum</div>
+                </div>
+            </div>
+
+            <div class="med2">
+                <div id="kl" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle"> Klaasje</div>
+                    <div class="ctitle i">Miss Oranje Disco Dancer</div>
+                </div>
+            </div>
+
+            <div class="med2">
+                <div id="chester" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Chester Mclaine</div>
+                    <div class="ctitle i">Precinct 43</div>
+                </div>
+            </div>
+
+          <div class="med2">
+                <div id="ftw" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Fuck the World</div>
+                    <div class="ctitle i">A wannabe SKULL</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="piss" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Pissf****t</div>
+                    <div class="ctitle i">A wannabe SKULL</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="ckl" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Cindy the skull</div>
+                    <div class="ctitle i">Girl in the Old-Lady Rags</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="judit" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Judit Minot</div>
+                    <div class="ctitle i">Precinct 43</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="dice" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Neha</div>
+                    <div class="ctitle i">Novelty Dicemaker</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="more" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Morell</div>
+                    <div class="ctitle i">The Cryptozoologist</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="lena" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Lena</div>
+                    <div class="ctitle i">The Cryptozoologist's Wife</div>
+                </div>
+          </div>
+
+          <div class="med2">
+                <div id="jean" class="art"></div>
+                <div class="pcard">
+                    <div class="ctitle">Jean Vicquemare</div>
+                    <div class="ctitle i">Man With Sunglassses</div>
+                </div>
+          </div>
+                    
+        </div>
+    </div>
+
+    <div id="p3" class="section">
+        <!-- <div class="left-sub">2023-22</div> -->
+        <div class="grid">
+
+            <div class="image large">
+                <div id="leja" class="art"></div>
+            </div>
+
+            <div class="image med">
+                <div id="ph" class="art"></div>
+            </div>
+            <div class="image med">
+                <div id="exp" class="art"></div>
+            </div>
+            <div class="image med">
+                <div id="tri" class="art"></div>
+            </div>
+          
+
+          
+
+          
+        </div>
+    </div>
+
+      <div id="p2" class="section">
+        <!-- <div class="left-sub">2025</div> -->
+        <div class="grid">
+            <div class="image small">
+            <div id="childe" class="art"></div>
+          </div>
+            
+            <div class="image small">
+              <div id=ville class="art"></div>
+            </div>
+            <div class="image mini">
+              <div id=ladder class="art"></div>
+            </div>
+
+            <div class="image med">
+              <div id=riren class="art"></div>
+            </div>
+
+            <div class="image med">
+              <div id=whwb class="art"></div>
+            </div>
+
+            <div class="image med">
+              <div id=neko class="art"></div>
+            </div>
+            
+            <div class="image mini">
+                <div id="fairy" class="art"></div>
+            </div>
+
+            <div class="image small">
+                <div id="echo" class="art"></div>
+            </div>
+
+            <div class="image small">
+                <div id="knights" class="art"></div>
+            </div>
+
+            <div class="image large">
+                <div id="bonfire" class="art"></div>
+            </div>
+          
+            <div class="image large">
+                <div id="whatTime" class="art"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+  </body>
+</html>
