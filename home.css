@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 #block-main {
@@ -113,8 +114,8 @@ body {
     top: 20%;
     right: -65%;
 
-    width: 400px;
-    height: 500px;
+    width: 25%;
+    height: 50%;
     
     padding: 0px;
     margin: 0px;
