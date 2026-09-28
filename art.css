@@ -24,6 +24,7 @@ body {
 #effects {
     position: absolute;
     left: 10%;
+    top: 11%;
     
     width: 40px;
     height: 40px;
@@ -31,8 +32,8 @@ body {
 
 #effects-text {
     position: absolute;
-    left: 13%;
-
+    left: 15%;
+    top: 11%;
 
     font-size: 30px;
 }
