@@ -56,7 +56,7 @@ $(document).ready(function() {
     });
 
     $("#pAbout").on('click', function(){
-        // window.location.href = "about.html";
+        window.location.href = "about.html";
     });
 
     $("#pMerch").on('click', function(){

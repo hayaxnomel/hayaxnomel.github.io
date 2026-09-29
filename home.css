@@ -59,6 +59,21 @@ body {
     background-color: lightgreen;
 }
 
+#block-footer {
+    z-index: 0;
+
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 35vh;
+
+    color: white;
+    text-align: center;
+    align-content: center;
+
+    background-color: rgb(25, 51, 137);
+}
+
 #main-deco {
     z-index: 999;
     position: absolute;

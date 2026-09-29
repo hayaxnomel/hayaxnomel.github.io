@@ -153,7 +153,6 @@ body {
 
 .ctitle {
     font-size: 20px;
-    font-weight: bold;
 }
 
 .i {
@@ -310,3 +309,19 @@ body {
 #judit {
     background-image: url('images/disco/judit.jpg')
 }
+
+#alice {
+    background-image: url('images/disco/alice.jpg')
+}
+
+#DD {
+    background-image: url('images/disco/delores.jpg')
+}
+
+#cunoesse {
+    background-image: url('images/disco/cunoesse.jpg')
+}
+
+#lili {
+    background-image: url('images/disco/lillienne.jpg')
+}   
