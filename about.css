@@ -12,10 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-image: url('https://i.pinimg.com/1200x/9a/4e/46/9a4e46d34f40d70dbdc3c8bdc73d7691.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-color: rgb(126, 196, 243);
 }
 
 #block-inf {
@@ -135,7 +132,7 @@ body {
     right: -65%;
 
     width: 25%;
-    height: 60%;
+    height: 50%;
     
     padding: 0px;
     margin: 0px;
@@ -199,33 +196,5 @@ body {
 
     width: 100%;
     height: 100%;
-}
-
-#i1 {
-    background-image: url('images/index/i_1.png') !important
-}
-
-#i2 {
-    background-image: url('images/index/i_2.png') !important
-}
-
-#i3 {
-    background-image: url('images/index/i_3.png') !important
-}
-
-#i4 {
-    background-image: url('images/index/i_4.png') !important
-}
-
-#i5 {
-    background-image: url('images/index/i_5.png') !important
-} 
-
-#i6 {
-    background-image: url('images/index/i_6.png') !important
-}
-
-#i7 {
-    background-image: url('images/index/i_7.png') !important
 }
 

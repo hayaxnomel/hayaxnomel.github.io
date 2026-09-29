@@ -1,5 +1,62 @@
 body {
     text-align: center;
     background-color: rgb(174, 174, 174);
-    font-size: 50px;
+    font-size: 25px;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.background {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 50%;
+
+    background-image: url('images/art/noHome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.back-layer {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: linear-gradient(to right, #00000000, #ce7b00, #ce7b00);
+}
+
+.body-container {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+
+    height: 60%;
+    width: 40%;
+
+    background-color: rgb(224, 142, 0);
+}
+
+.sona-deco {
+    z-index: 3;
+    position: absolute;
+
+    top: 35%;
+    left: 40%;
+
+    width: 250px;
+    height: 350px;
+
+    border: dashed blue 2px;
 }

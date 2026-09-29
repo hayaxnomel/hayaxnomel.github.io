@@ -20,20 +20,20 @@
                 });
 
                 $("#li2").on('click', function(){
-                    setTimeout(() => {
-                        window.location.href = "comms.html";
-                    }, 600);                    
+                    // setTimeout(() => {
+                    //     window.location.href = "comms.html";
+                    // }, 600);                    
                 });
 
                 $("#li3").on('click', function(){
-                    setTimeout(() => {
-                        window.location.href = "exp.html";
-                    }, 600);
+                    // setTimeout(() => {
+                    //     window.location.href = "exp.html";
+                    // }, 600);
                     
                 });
                 $("#li4").on('click', function(){
                     setTimeout(() => {
-                        window.location.href = "merch.html";
+                        window.location.href = "about.html";
                     }, 600);                   
                 });
 
@@ -49,6 +49,10 @@
                     setTimeout(() => {
                         $('#filter').removeClass('focus').addClass('blur-filter');
                     }, 50);
+
+                    setTimeout(() => {
+                        $('#filter-off').removeClass('hidden');
+                    }, 1000);
                 });
             });
         </script>
@@ -56,13 +60,14 @@
         <body>
 
             <div id="filter" class="blur-filter"></div>
+            <div id="filter-off" class="hidden">got stuck ? click to remove the filter</div>
 
         <div class="top-nav hide">
             <div class="nav-button" id="pHome">HOME</div>
             <div class="nav-button" id="pWork">WORKS</div>
             <div class="nav-button" id="pComms">COMMISSIONS</div>
             <div class="nav-button" id="pExp">EXPERIENCE</div>
-            <div class="nav-button" id="pMerch">MERCHANDISE</div>
+            <div class="nav-button" id="pAbout">ABOUT ME</div>
             <div class="nav-button" id="pProj">PROJECTS</div>
         </div>
 
@@ -76,7 +81,7 @@
                 <div class="body">currently only the WORKS page is populated, please only look there !</div>
             </div>
 
-            <div id="main-deco">
+            <div id="main-deco" class="bobbing">
                 <div id="i1" class="image"></div>
                 <div id="i2" class="image hide"></div>
                 <div id="i3" class="image hide"></div>
@@ -94,7 +99,7 @@
                 <div id="li1" class="in-button">Works</div>
                 <div id="li2" class="in-button">Commissions</div>
                 <div id="li3" class="in-button">Experience</div>
-                <div id="li4" class="in-button">Merchandise</div>
+                <div id="li4" class="in-button">About Me</div>
                 <div id="li5" class="in-button">Projects</div>
             </div>
         </div>

@@ -17,6 +17,19 @@ $(document).ready(function() {
         setTimeout(() => {
             $('#filter').removeClass('focus').addClass('blur-filter');
         }, 50);
+
+        setTimeout(() => {
+            $('#filter-off').removeClass('hidden');
+        }, 1000);
+    });
+
+    $('#filter-off').on('click', function (){
+        $('#filter').removeClass('hidden');
+        setTimeout(() => {
+            $('#filter').removeClass('blur-filter').addClass('focus');
+        }, 50);
+        $('#filter-off').addClass('hidden');
+        $('#filter').addClass('hidden');
     });
 
     
@@ -35,15 +48,19 @@ $(document).ready(function() {
     });
 
     $("#pComms").on('click', function(){
-        window.location.href = "comms.html";
+        // window.location.href = "comms.html";
     });
 
     $("#pExp").on('click', function(){
-        window.location.href = "exp.html";
+        // window.location.href = "exp.html";
+    });
+
+    $("#pAbout").on('click', function(){
+        // window.location.href = "about.html";
     });
 
     $("#pMerch").on('click', function(){
-        window.location.href = "merch.html";
+        // window.location.href = "merch.html";
     });
 
     $("#pProj").on('click', function(){
